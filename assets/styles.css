@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+fieldset {
+	border: none;
+	margin: 0 0 32px;
+	padding: 0;
+}
+
+legend {
+	font-size: 24px;
+	margin-bottom: 8px;
+	padding: 0;
+}
+
+input[type="date"] {
+	display: block;
+	margin-top: 8px;
+}
+
+.u-max-w-xl {
+	max-width: 1000px;
+}
+
+.u-mb-md {
+	margin-bottom: 16px;
+}
+
+.u-px-lg {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.u-py-xl {
+	padding-bottom: 64px;
+	padding-top: 64px;
+}
+
+.u-bg-light-gray {
+	background-color: #eeeeee;
+}

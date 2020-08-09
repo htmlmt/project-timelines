@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Timelines</title>
+		
+		<link rel="stylesheet" href="./assets/styles.css" />
+		<link rel="stylesheet" href="https://assets.donordrive.com/themes/_design-system/public/css/design-system.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+		
+		<script src="https://unpkg.com/vue@next"></script>
+	</head>
+	<body>
+		<div class="u-bg-light-gray" id="app">
+			<div class="u-max-w-xl u-px-lg u-py-xl dd-u-bg-white dd-u-h-screen dd-u-mx-auto">
+				<h1 class="dd-u-mt-0">Project Timelines</h1>
+				<project-form></project-form>
+			</div>
+		</div>
+		
+		<!-- Import App -->
+		<script src="./main.js"></script>
+		
+		<!-- Import Components -->
+		<script src="./components/ProjectForm.js"></script>
+		
+		<!-- Mount App -->
+		<script>
+			const mountApp = app.mount('#app')
+		</script>
+	</body>
+</html>
